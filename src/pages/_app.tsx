@@ -9,7 +9,6 @@ function App({ Component, pageProps }: any) {
   return (
     <>
       {/* <Fonts /> */}
-      <ToggleColorModeButton />
       <Component {...pageProps} />
       <ControlledConfirmAlert />
       <ReactQueryDevtools initialIsOpen={false} />
